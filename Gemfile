@@ -33,7 +33,11 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap', '~> 4.0.0.beta3'
 gem "font-awesome-rails"
 
+gem 'figaro'
 
+group :production do
+  gem 'mysql2'
+end
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

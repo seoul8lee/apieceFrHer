@@ -70,6 +70,8 @@ GEM
     erubi (1.7.0)
     execjs (2.7.0)
     ffi (1.9.18)
+    figaro (1.1.1)
+      thor (~> 0.14)
     font-awesome-rails (4.7.0.2)
       railties (>= 3.2, < 5.2)
     globalid (0.4.1)
@@ -93,6 +95,7 @@ GEM
     mini_portile2 (2.3.0)
     minitest (5.11.1)
     multi_json (1.12.2)
+    mysql2 (0.4.10)
     nio4r (2.2.0)
     nokogiri (1.8.1)
       mini_portile2 (~> 2.3.0)
@@ -200,9 +203,11 @@ DEPENDENCIES
   byebug
   capybara
   coffee-rails (~> 4.2)
+  figaro
   font-awesome-rails
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
+  mysql2
   puma (~> 3.7)
   rails (~> 5.1.4)
   rspec-rails (~> 3.6)
