@@ -1,0 +1,177 @@
+/* main */
+/* line 8, /home/ec2-user/environment/testapp/app/assets/stylesheets/colors.scss */
+.main {
+  margin: 30px auto;
+  width: 1400px;
+  height: 744px;
+  background-image: url("111.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 17, /home/ec2-user/environment/testapp/app/assets/stylesheets/colors.scss */
+.main > a {
+  opacity: 0;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  height: 744px;
+}
+
+/* intro */
+/* line 27, /home/ec2-user/environment/testapp/app/assets/stylesheets/colors.scss */
+.my {
+  margin: 50px auto;
+  width: 904px;
+}
+
+/* line 32, /home/ec2-user/environment/testapp/app/assets/stylesheets/colors.scss */
+.my_img {
+  width: 904px;
+  display: block;
+  height: auto;
+}
+
+/* line 38, /home/ec2-user/environment/testapp/app/assets/stylesheets/colors.scss */
+.overlay {
+  position: absolute;
+  top: 50px;
+  bottom: 0;
+  height: 600px;
+  width: 904px;
+  opacity: 0;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  background-color: #FFF;
+}
+
+/* line 49, /home/ec2-user/environment/testapp/app/assets/stylesheets/colors.scss */
+.my:hover .overlay {
+  opacity: 1;
+}
+
+/* line 53, /home/ec2-user/environment/testapp/app/assets/stylesheets/colors.scss */
+.my_text {
+  color: gray;
+  font-family: "Courier New";
+  font-size: 20px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/* line 64, /home/ec2-user/environment/testapp/app/assets/stylesheets/colors.scss */
+.my_text:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 1px solid;
+  margin-top: 10px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+}
+
+/* line 80, /home/ec2-user/environment/testapp/app/assets/stylesheets/colors.scss */
+.my_text:hover:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+/* index hover */
+/* line 90, /home/ec2-user/environment/testapp/app/assets/stylesheets/colors.scss */
+.tile {
+  padding: 0;
+  margin: 0;
+  height: 80px;
+}
+
+/* line 96, /home/ec2-user/environment/testapp/app/assets/stylesheets/colors.scss */
+.tile :hover {
+  opacity: 0;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+
+/* index layout */
+/* line 102, /home/ec2-user/environment/testapp/app/assets/stylesheets/colors.scss */
+.container_intro {
+  width: 904px;
+  height: 490px;
+  margin: 50px auto;
+}
+
+/* line 109, /home/ec2-user/environment/testapp/app/assets/stylesheets/colors.scss */
+.flexbox {
+  width: 904px;
+  margin-bottom: 2px;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+/* line 118, /home/ec2-user/environment/testapp/app/assets/stylesheets/colors.scss */
+.flexbox-1 {
+  width: 342px;
+  height: 80px;
+}
+
+/* line 123, /home/ec2-user/environment/testapp/app/assets/stylesheets/colors.scss */
+.flexbox-2 {
+  width: 560px;
+  height: 80px;
+}
+
+/* line 128, /home/ec2-user/environment/testapp/app/assets/stylesheets/colors.scss */
+.flexbox-3 {
+  width: 904px;
+  height: 80px;
+}
+
+/* abc */
+/* line 135, /home/ec2-user/environment/testapp/app/assets/stylesheets/colors.scss */
+.audiobox {
+  width: 904px;
+  height: 490px;
+  margin: 50px auto;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+
+ @import "bootstrap";
+
+
+.margin{
+    height: 30px;
+}

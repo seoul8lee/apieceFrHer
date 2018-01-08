@@ -1,0 +1,17 @@
+<p class="speak_text"> 귀 기 울 여 주 세 요 </p>
+
+<div class="speaker" onclick="play()" style="background-color: #877567;">
+</div>
+
+<audio class="audio" id="player">
+    <source src=<%= audio_url("5ga.mp3") %>  type="audio/mp3" />
+    오디오가 지원되지 않는 브라우저입니다.
+</audio>
+
+<script>
+    function play(){
+        var audio = document.getElementById("player");
+        audio.play();
+    }
+    
+</script>
