@@ -35,9 +35,7 @@ gem "font-awesome-rails"
 
 gem 'figaro'
 
-group :production do
-  gem 'mysql2'
-end
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
